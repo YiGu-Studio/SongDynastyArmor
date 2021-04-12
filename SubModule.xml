@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="YiGu-SongDynastyArmor"/>
+    <Id value="YiGu-SongDynastyArmor"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native" DependentVersion="e1.5.6"/>
+        <DependedModule Id="SandBoxCore" DependentVersion="e1.5.6"/>
+        <DependedModule Id="Sandbox" DependentVersion="e1.5.6"/>
+        <DependedModule Id="CustomBattle" DependentVersion="e1.5.6"/>
+        <DependedModule Id="StoryMode" DependentVersion="e1.5.6"/>
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="SongDynastyArmor"/>
+            <DLLName value="SongDynastyArmor.dll"/>
+            <SubModuleClassType value="SGAddItem.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="Items" path="Infernal_Reaper"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingPieces" path="new_pieces"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingTemplates" path="new_templates"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>
