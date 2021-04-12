@@ -25,7 +25,7 @@
     </SubModules>
     <Xmls>
         <XmlNode>
-            <XmlName id="Items" path="Infernal_Reaper"/>
+            <XmlName id="Items" path="song_armor_Infernal_Reaper"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>
@@ -33,7 +33,7 @@
             </IncludedGameTypes>
         </XmlNode>
         <XmlNode>
-            <XmlName id="CraftingPieces" path="new_pieces"/>
+            <XmlName id="CraftingPieces" path="song_armor__pieces"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>
@@ -41,7 +41,7 @@
             </IncludedGameTypes>
         </XmlNode>
         <XmlNode>
-            <XmlName id="CraftingTemplates" path="new_templates"/>
+            <XmlName id="CraftingTemplates" path="song_armor__templates"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>
