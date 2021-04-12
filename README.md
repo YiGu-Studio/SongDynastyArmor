@@ -1,2 +1,5 @@
-# YiGu-DingJunMountain
-衣谷作坊 - 定军山 - 场景 Mod
+# YiGu - Song Dynasty Armor Mod
+
+This Mod provides a suit of armor with Song Dynasty Style.
+
+
