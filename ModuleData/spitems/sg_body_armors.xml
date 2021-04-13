@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- 西凉士兵胸甲 -->
+
+	<Item id="sg_xj" name="宋甲" mesh="xj" culture="Culture.aserai" weight="9.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="0" arm_armor="0" covers_body="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true" />
+	</Item>
+  <!-- #endregion -->
+  <!-- #endregion -->
+  <!-- #endregion -->
+</Items>

@@ -1,0 +1,7 @@
+6
+mesh editor_plane_low
+texture cg_50c_5b
+texture lens_dirt
+texture lens_star
+texture semi_cloudy_2
+texture sun_core2

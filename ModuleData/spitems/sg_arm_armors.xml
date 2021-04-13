@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- 西凉士兵护腕 -->	
+	
+	<Item id="sg_sj" name="皮手甲" mesh="sj" culture="Culture.aserai" weight="0.7" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" covers_hands="false" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true" />
+	</Item>
+  <!-- #endregion -->
+  <!-- #region Looters Arm Armors -->
+  <!-- #endregion -->
+  <!-- #region NeutralCulture Arm Armors -->
+  <!-- #endregion -->
+</Items>

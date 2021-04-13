@@ -53,7 +53,7 @@ namespace SGAddItem
             }
             catch (Exception e)
             {
-                LPLog.LogInfoMessage("请存档后重新读取即可获取 虎头枪。\n Please Save and Reload later to get the TigerHeadQiang.");
+                LPLog.LogWarning("当前背包有其他mod遗留装备的错误,请存档后重新读取.");
             }
 
 
