@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-    <Name value="YiGu-SongDynastyArmor"/>
-    <Id value="YiGu-SongDynastyArmor"/>
-    <Version value="v1.0.0"/>
+    <Name value="SongDynastyArmor"/>
+    <Id value="SongDynastyArmor"/>
+    <Version value="e1.0.0"/>
+    <DefaultModule value="false"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
+    <Official value="false"/>
+
     <DependedModules>
-        <DependedModule Id="Native"/>
-        <DependedModule Id="SandBoxCore"/>
-        <DependedModule Id="Sandbox"/>
-        <DependedModule Id="CustomBattle"/>
-        <DependedModule Id="StoryMode" />
+        <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.0.4" />
     </DependedModules>
+
+    <!-- Prototype -->
+    <DependedModuleMetadatas>
+        <DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis" version="v2.0.4" />
+        <DependedModuleMetadata id="Native" order="LoadBeforeThis" version="e1.5.9.*" />
+        <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="e1.5.9.*" />
+        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="e1.5.9.*" />
+        <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="e1.5.9.*" optional="true" />
+        <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.5.9.*" optional="true" />
+    </DependedModuleMetadatas>
+
     <SubModules>
         <SubModule>
             <Name value="SongArmor"/>
@@ -25,7 +35,7 @@
     </SubModules>
     <Xmls>
         <XmlNode>
-            <XmlName id="Items" path="spitems/sg_song_armor"/>
+            <XmlName id="Items" path="spitems"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>

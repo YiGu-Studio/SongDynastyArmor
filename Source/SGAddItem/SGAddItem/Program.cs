@@ -53,7 +53,7 @@ namespace SGAddItem
             }
             catch (Exception e)
             {
-                LPLog.LogWarning("当前背包有其他mod遗留装备的错误,请存档后重新读取.");
+                LPLog.LogWarning("请存档后重新读取即可获取 宋朝甲胄。\n Please Save and Reload later to get the Song Dynasty Armors.");
             }
 
 
@@ -85,7 +85,8 @@ namespace SGAddItem
             var filePath = BasePath.Name + @"Modules\" + NowModName + @"\MBLog.txt";
             LPLog.LogPath = filePath;
 
-            LPLog.Log("当前mod名：" + NowModName);
+            LPLog.Log("当前 Mod Name：" + NowModName);
+            LPLog.Log("当前 Mod ID：" + NowModNameId);
 
             //path += "/" + System.AppDomain.CurrentDomain.BaseDirectory;
 
