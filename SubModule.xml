@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-    <Name value="song"/>
-    <Id value="song"/>
+    <Name value="YiGu-SongDynastyArmor"/>
+    <Id value="YiGu-SongDynastyArmor"/>
     <Version value="v1.0.0"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
@@ -12,36 +12,20 @@
         <DependedModule Id="CustomBattle"/>
         <DependedModule Id="StoryMode" />
     </DependedModules>
-	<SubModules>
-		<SubModule>
-			<Name value="TigerHeadQiang"/>
-			<DLLName value="TigerHeadQiang.dll"/>
-			<SubModuleClassType value="SGAddItem.SubModule"/>
-			<Tags>
-				<Tag key="DedicatedServerType" value="none" />
-				<Tag key="IsNoRenderModeElement" value="false" />
-			</Tags>
-		</SubModule>
-	</SubModules>
+    <SubModules>
+        <SubModule>
+            <Name value="SongArmor"/>
+            <DLLName value="SongArmor.dll"/>
+            <SubModuleClassType value="SGAddItem.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
     <Xmls>
         <XmlNode>
-            <XmlName id="Items" path="Infernal_Reaper"/>
-            <IncludedGameTypes>
-                <GameType value = "Campaign"/>
-                <GameType value = "CampaignStoryMode"/>
-                <GameType value = "CustomGame"/>
-            </IncludedGameTypes>
-        </XmlNode>
-        <XmlNode>
-            <XmlName id="CraftingPieces" path="new_pieces"/>
-            <IncludedGameTypes>
-                <GameType value = "Campaign"/>
-                <GameType value = "CampaignStoryMode"/>
-                <GameType value = "CustomGame"/>
-            </IncludedGameTypes>
-        </XmlNode>
-        <XmlNode>
-            <XmlName id="CraftingTemplates" path="new_templates"/>
+            <XmlName id="Items" path="spitems/sg_song_armor"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>

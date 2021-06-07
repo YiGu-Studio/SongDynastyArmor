@@ -1,0 +1,9 @@
+======================开启测试LOG：6/6/2021 11:01:15 PM=================
+当前mod名：YiGu-SongDynastyArmor
+=========WARNING- 6/6/2021 11:01:15 PM -=====
+当前背包有其他mod遗留装备的错误,请存档后重新读取.
+========WARNING---END======
+当前mod名：YiGu-SongDynastyArmor
+玩家背包道具数量 1
+当前mod名：YiGu-SongDynastyArmor
+玩家背包道具数量 1

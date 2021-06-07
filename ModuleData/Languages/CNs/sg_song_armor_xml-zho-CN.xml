@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="简体中文"/>
+    </tags>
+    <strings>
+        <string id="Ad36VsWI" text="宋皮手甲"/>
+        <string id="4Hox6P9h" text="宋盔甲"/>
+        <string id="uFpPOQq4" text="宋勇字盔"/>
+        <string id="ZXdJ8V9Y" text="宋靴"/>
+    </strings>
+</base>
