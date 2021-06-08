@@ -8,9 +8,9 @@
     </Item>
     <Item id="songdynastyarmor_xj" name="{=4Hox6P9h}Song-Armor" mesh="xj" culture="Culture.aserai" weight="9.5" appearance="1" Type="BodyArmor">
         <ItemComponent>
-            <Armor body_armor="40" leg_armor="0" arm_armor="0" covers_body="false" modifier_group="plate" material_type="Plate" />
+            <Armor body_armor="40" leg_armor="0" arm_armor="0" covers_body="true" modifier_group="plate" material_type="Plate" />
         </ItemComponent>
-        <Flags UseTeamColor="false" Civilian="false" />
+        <Flags UseTeamColor="false" Civilian="true" />
     </Item>
     <Item id="songdynastyarmor_tk" name="{=uFpPOQq4}Song-YongHelmet" subtype="head_armor" mesh="tk" culture="Culture.aserai" weight="1.3" difficulty="0" appearance="1" Type="HeadArmor">
         <ItemComponent>
@@ -20,8 +20,8 @@
     </Item>
     <Item id="songdynastyarmor_xz" name="{=ZXdJ8V9Y}Song-Greaves" mesh="xz" culture="Culture.aserai" weight="0.5" appearance="1" Type="LegArmor">
         <ItemComponent>
-            <Armor leg_armor="18" covers_legs="false" modifier_group="cloth_unarmoured" material_type="Cloth" />
+            <Armor leg_armor="18" covers_legs="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
         </ItemComponent>
-        <Flags UseTeamColor="false" Civilian="false" />
+        <Flags UseTeamColor="false" Civilian="true" />
     </Item>
 </Items>
