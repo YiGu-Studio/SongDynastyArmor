@@ -2,6 +2,10 @@
 
 [English](README.md) | [中文版](README_CN.md)
 
+## ChangeLog
+
+[2021-06-09] v0.9.0 Release. Known Issue: Helmet not working.
+
 ## Introduction
 
 This is an Armor Suit Mod for [Mount & Blade II: Bannerlord](https://www.taleworlds.com/en/Games/Bannerlord). This Mod will add a very fancy armor suit from China Song Dynasty to your inventory. If there is no `Song Dynasty Armor` in your inventory or equipment, this armor suit will be added to your inventory automatically.
