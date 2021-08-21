@@ -40,7 +40,7 @@ namespace SGAddItem
 
                 LPLog.Log("玩家背包道具数量 " + MobileParty.MainParty.ItemRoster.Count.ToString());
 
-                foreach (ItemObject item2 in ItemObject.All)
+                foreach (ItemObject item2 in Items.All)
                 {
                     if (item2 != null && !string.IsNullOrEmpty(item2.StringId) && item2.StringId.ToLower().Contains(NowModNameId) && !items.Contains(item2))
                     {
