@@ -15,11 +15,11 @@
     <!-- Prototype -->
     <DependedModuleMetadatas>
         <DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis" version="v2.2.0" />
-        <DependedModuleMetadata id="Native" order="LoadBeforeThis" version="e1.6.5.*" />
-        <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="e1.6.5.*" />
-        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="e1.6.5.*" />
-        <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="e1.6.5.*" optional="true" />
-        <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.6.5.*" optional="true" />
+        <DependedModuleMetadata id="Native" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
+        <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
     </DependedModuleMetadatas>
 
     <!-- <SubModules>
