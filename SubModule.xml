@@ -2,7 +2,7 @@
 <Module>
     <Name value="SongDynastyArmor"/>
     <Id value="SongDynastyArmor"/>
-    <Version value="e1.0.0"/>
+    <Version value="e1.1.0"/>
     <DefaultModule value="false"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
@@ -22,7 +22,7 @@
         <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.6.1.*" optional="true" />
     </DependedModuleMetadatas>
 
-    <SubModules>
+    <!-- <SubModules>
         <SubModule>
             <Name value="SongArmor"/>
             <DLLName value="SongArmor.dll"/>
@@ -32,7 +32,7 @@
                 <Tag key="IsNoRenderModeElement" value="false" />
             </Tags>
         </SubModule>
-    </SubModules>
+    </SubModules> -->
     <Xmls>
         <XmlNode>
             <XmlName id="Items" path="spitems"/>
